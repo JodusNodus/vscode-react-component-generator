@@ -1,6 +1,6 @@
 # React Component Generator
 
-Automaticly creates the following files:
+Automatically creates the following files:
 
 - `Component/`
   - `index.ts`
@@ -8,8 +8,6 @@ Automaticly creates the following files:
   - `Component.styled.ts`
 
 ## Changelog
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
