@@ -1,0 +1,15 @@
+import React from 'react';
+import { InjectedIntlProps, injectIntl } from 'react-intl';
+import { compose } from 'recompose';
+import { Wrap } from "./{{componentName}}.styled"
+
+type TOwnProps = {};
+type TProps = TOwnProps & InjectedIntlProps;
+
+const {{componentName}} = React.memo<TProps>(({ intl }) => {
+  return (
+    <Wrap />
+  )
+});
+
+export default compose<TProps, TOwnProps>(injectIntl)({{componentName}});
