@@ -1,6 +1,6 @@
 {
-  "name": "react-component-generator",
-  "displayName": "React Component Generator",
+  "name": "vscode-react-component-generator",
+  "displayName": "VSCode React Component Generator",
   "description": "",
   "version": "1.0.0",
   "engines": {
